@@ -41,23 +41,23 @@
 .section1{
     margin-top: 60px;
 }
-.card1, .card2, .card3, .card4{
+.section1 .card1, .card2, .card3, .card4{
     width:65%;
     Height:80%;
 }
-.card1{
+.section1 .card1{
     margin-left: 100px;
     border:none !important;
 }
-.card2{
+.section1 .card2{
     margin-left: -80px;
     border:none !important;
 }
-.card3{
+.section1 .card3{
     margin-left: -260px;
     border:none !important;
 }
-.card4{
+.section1 .card4{
     margin-left: 1070px;
     margin-top: -390px;
     border:none !important;
@@ -146,16 +146,35 @@
 /* Section1 Style End */
 
 /* Section2 Style Start */
+.sec2div h3{
+    font-weight:700;
+    margin-top: 40px;
+    margin-left: 100px;
+}
 .sec2div1{
     display: flex;
     justify-content: space-between;
+    margin-top: 80px;
 }
 .sec2div1 .card{
     border:none;
+    width:180px !important;
 }
-
-
-
+.sec2div1 .card1{
+    margin-left:100px;
+    
+}
+.sec2div1 .card6{
+    margin-right:100px;
+}
+.sec2div1 .cd1{
+    margin-left: 50px;
+    font-weight: 700;
+}
+.sec2div1 .cd2{
+    margin-left:35px;
+    font-weight: 700;
+}
 /* Section2 Style End */
 /* Section 3 Style Start */
 .sec3div1{
@@ -222,6 +241,21 @@
     background-color: #F17228;
     color:white;
     box-shadow: 0px 20px 40px 0px rgba(250, 99, 35, 0.24);
+}
+.sec4div1 .title1{
+    margin-left: 70px;
+}
+.sec4div1 .title2{
+    margin-left: 40px;
+}
+.sec4div1 .title3{
+    margin-left: 50px;
+}
+.sec4div1 .title4{
+    margin-left: 20px;
+}
+.sec4div1 .title5{
+    margin-left: 80px;
 }
 /* Section 4 Style End */
 
