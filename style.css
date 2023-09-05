@@ -2,13 +2,17 @@
 .headdiv1{
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
-.headdiv1 h3{
+.headdiv2 h3{
     color:#FFB30E;
     font-family: Qwigley;
     font-size: 60px;
     font-weight: 400;
     margin-left: 80px;
+}
+.headdiv2{
+    margin-top:-10px;
 }
 .headbgimg{
     width:100%;
@@ -32,9 +36,126 @@
 .headfoodimg{
     margin-left: 950px;
     margin-top: -500px;
-    height: 300px;
+    height: 350px;
 }
-
+.headspan1{
+    font-weight:700;
+    color:#424242;
+}
+.headspan2{
+    font-weight: 400;
+    color:#424242;   
+}
+.headspan3{
+    font-weight: 700;
+    color: #424242;
+}
+.headdiv4{
+    margin-top:10px;
+    margin-left:870px;
+}
+.headdiv4 p{
+    font-weight: 700;
+    color:#424242;
+}
+.headdiv5{
+    margin-top:10px;
+}
+.login{
+    margin-right: 110px ;
+    border-radius: 5px;
+    padding:5px 25px;
+    text-decoration: none;
+    border: 2px solid #FFAC0D;
+    color: #FF8A00;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+}
+.headdiv3 {
+    margin-top: 10px;
+    margin-left:500px;
+    position: absolute;
+}
+.location{
+    content: url(./images/mapmarker.svg);
+    position:absolute;
+    margin-top:-59px;
+    margin-left:579px;
+}
+.search{
+    content: url(./images/Search.svg);
+    position:absolute;
+    margin-top:-56px;
+    margin-left:1125px;
+}
+.user{
+    content: url(./images/user.svg);
+    position:absolute;
+    margin-top:-56px;
+    margin-left:1270px;
+}
+.whiterect{
+    width:45%;
+    Height:200px;
+    margin-top:-430px;
+    margin-left: 60px;
+    
+}
+.delivery{
+    border-radius: 8px;
+    background: rgba(241, 114, 40, 0.10);
+    padding: 8px 28px;
+    font-weight: 700;
+    color:#F17228;
+    width:130px;
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 100px;
+}
+.pickup{
+    color:#757575;
+    font-weight: 700;
+    position: absolute;
+    margin-top: -275px;
+    margin-left: 288px;
+}
+.address{
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 100px;
+    border-radius: 8px;
+    background: var(--theme-gray-100, #F5F5F5);
+    padding: 10px 20px;
+    width:400px;
+    
+}
+.findfood{
+   text-decoration: none;
+   position: absolute;
+   margin-top: -193px;
+   margin-left:-200px;
+   border-radius: 8px;
+   background-color: #F17228;
+   padding:10px 35px;
+   color:white;
+   font-weight: 700; 
+}
+.bike{
+    content: url(./images/bike.svg);
+    position: absolute;
+    margin-top: -268px;
+    margin-left: 100px;
+}
+.pick{
+    content: url(./images/pickup.svg);
+    margin-top: -272px;
+    margin-left: 260px;
+    position: absolute;
+}
+.address::before{
+    content: url(./images/orange\ map.svg);
+    
+}
 /* Header style End */
 
 /* Section1 Style Start */
@@ -138,7 +259,7 @@
     width:60px;
     Height:60px;
 }
-.delivery{
+.quick{
     content: url(./images/clock.svg);
     width:60px;
     Height:60px;
@@ -219,11 +340,19 @@
 /* Section3 Style End */
 
 /* Section4 Style Start */
+.popular{
+    margin-top: 80px;
+}
+.popular h2{
+    font-weight: 700;
+    color:#212121;
+    font-size: 30px;
+}
 .sec4div1{
     display:flex;
     flex-wrap:wrap;
     justify-content: space-around;
-    margin-top:80px;
+    margin-top: 40px;
 }
 .section4 .card{
     width:17% !important;
@@ -270,13 +399,11 @@
 }
 .topfooterline{
     margin-top:-800px;
- 
 }
 .bottomfooterline{
     position: absolute;
     margin-top: -90px;
-    width:85%;
-    margin-left: 90px;
+   
 }
 .footdiv1{
     display:flex;
@@ -288,14 +415,30 @@
     margin-left:100px;
 }
 .footdiv3{
-    margin-top: -400px;
-    margin-right:400px;
+    margin-top: -350px;
+    margin-right: 150px;
 }
 .footdiv3 h4{
     color: #F5F5F5;
     font-size:10px;
 }
-
-
+.instagram{
+    content: url(./images/instagram.svg);
+}
+.facebook{
+    content:url(./images/facebook.svg);
+    margin-left:10px;
+}
+.twitter{
+    content:url(./images/twitter.svg); 
+    margin-left:10px;
+}
+.social{
+    display:flex;
+    margin-top: 30px;
+}
+.footdiv4{
+    margin-top: 30px;
+}
 
 
